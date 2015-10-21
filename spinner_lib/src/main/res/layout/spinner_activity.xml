@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dip"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    android:paddingTop="16dip"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="#ff0000"
+            android:singleLine="true"
+            android:id="@+id/et_input"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/status_selector"
+            android:hint="请输入号码" />
+
+        <ImageView
+            android:id="@+id/tv_drawer"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down_arrow"/>
+    </RelativeLayout>
+</RelativeLayout>

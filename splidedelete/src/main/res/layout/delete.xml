@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:orientation="vertical">
+<TextView
+    android:clickable="true"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:background="#4400ff00"
+    android:text="删除"
+    android:textColor="#ff0000"
+    android:textSize="18dip"/>
+</LinearLayout>

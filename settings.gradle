@@ -1,0 +1,1 @@
+include ':app', ':viewpager', ':ukuview', ':viewpager_lib', ':spinner', ':spinner_lib', ':toggle', ':slidermenu', ':splidedelete', ':toggle_lib', ':slidingpanelayout', ':toolbardemo', ':imageswitcher1'
